@@ -14,3 +14,26 @@ A simple yet powerful **Streamlit web app** to track **live stock prices** and v
 ## 🖼️ Demo
 
 *(Add a screenshot or GIF of your Streamlit app here)*
+
+## 🧠 Tech Stack
+
+- [Python 3.x](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [yfinance](https://pypi.org/project/yfinance/)
+- [pandas](https://pandas.pydata.org/)
+- [datetime](https://docs.python.org/3/library/datetime.html)
+
+## 🧩 How It Works
+
+🔴 Live Price Tab
+
+Continuously fetches the latest stock price every few seconds
+
+Displays timestamp of the last update
+
+🕒 Time-based Price Tab
+
+Lets you pick any time (e.g., 15:15)
+
+Fetches the closest available price from today's 1-minute data
+
